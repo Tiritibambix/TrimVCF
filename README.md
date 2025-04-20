@@ -12,7 +12,7 @@ TrimVCF is a simple Python script to clean VCF (vCard) files by removing dashes 
 ## Usage
 
 ```bash
-python clean_tel_vcf.py input.vcf [--output cleaned.vcf]
+python3 TrimVCF.py input.vcf [--output cleaned.vcf]
 ```
 
 ### Arguments
@@ -25,7 +25,7 @@ python clean_tel_vcf.py input.vcf [--output cleaned.vcf]
 ### Example
 
 ```bash
-python clean_tel_vcf.py contacts.vcf --output contacts_clean.vcf
+python3 TrimVCF.py contacts.vcf --output contacts_clean.vcf
 ```
 
 ## Installation
@@ -35,7 +35,7 @@ No external dependencies are required. Works with Python 3.7+.
 ```bash
 git clone https://github.com/yourusername/TrimVCF.git
 cd TrimVCF
-python clean_tel_vcf.py --help
+python3 TrimVCF.py --help
 ```
 
 ## License
